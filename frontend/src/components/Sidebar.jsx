@@ -48,7 +48,7 @@ function Sidebar({ onSelectUser, user, onLogout }) {
             className="user-card flex items-center gap-3 p-2 cursor-pointer hover:bg-gray-200 rounded-lg transition"
           >
             <img
-              src={`http://localhost:5000${u.avatar || '/avatars/default.png'}`}
+              src={`http://localhost:5001${u.avatar || '/avatars/default.png'}`}
               alt="avatar"
               className="w-12 h-12 rounded-full object-cover"
             />

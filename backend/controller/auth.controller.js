@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const User = require('../modals/auth.modal.js');
 const path = require('path');
 
-const BASE_URL = process.env.NODE_ENV === "development" ? 'http://localhost:5000' : "/api";
+const BASE_URL = process.env.NODE_ENV === "development" ? 'http://localhost:5001' : "/api";
 
 
 
